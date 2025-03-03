@@ -88,6 +88,8 @@ Client → Requests CRL from CA (Port 80) → Downloads CRL → Checks Certifica
 ```
 Client → Requests certificate status from OCSP Responder (Port 80) → OCSP Responder checks and replies with status
 ```
+![image](https://github.com/user-attachments/assets/5e10af57-5483-4146-96d1-4e8352c8f5ed)
+
 
 ## 3. OCSP Stapling
 **OCSP Stapling** is a method used to improve the efficiency of OCSP checks by allowing the server to fetch the OCSP response from the CA and "staple" it to the SSL/TLS handshake, sending the response directly to the client.
